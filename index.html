@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelum</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- <script src="https://kit.fontawesome.com/cace72777c.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/cace72777c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="topnav">
         <div class="logo">
-            <p class="logname"><span>P</span>elum</p>
+            <p class="logname"><span class="log">P</span>elum</p>
         </div>
-        <div class="nav">
+        <div class="nav" id="myLinks">
             <a href="#">Home</a>
             <a href="#">Features</a>
             <a href="#">About</a>
@@ -22,6 +22,9 @@
             <a href="#">Testimonial</a>
             <a href="#">Contact</a>
         </div>
+        <a href="#" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
     </header>
     <section class="content">
         <img src="./images/pexels-cottonbro-3945668.jpg" alt="" class="bg">
@@ -35,5 +38,91 @@
                 </button>
         </div>
     </section>
+    <section class="features">
+        <p class="h2f">FEATURES</p>
+        <h2 class="h2t">Outstanding Features</h2>
+        <hr class="lefthr"> <hr>
+        <div class="iconfull">
+            <div class="featcon">
+                <span class="box">
+                    <i class="fa-solid fa-microphone text-trans"></i>     
+                </span>
+                <h3 class="feathead">Virtual Surround</h3>
+                <p class="featpitch">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos odio magni deserunt eius repellat</p>
+            </div>
+            <div class="featcon">
+                <span class="box">
+                    <i class="fa-solid fa-music text-trans"></i>
+                </span>
+                <h3 class="feathead">Noise Cancelling</h3>
+                <p class="featpitch">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos odio magni deserunt eius repellat</p>
+            </div>
+            <div class="featcon">
+                <span class="box">
+                    <i class="fa-solid fa-volume-high text-trans"></i>
+                </span>
+                <h3 class="feathead">Sound Control</h3>
+                <p class="featpitch">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="featcon">
+                <span class="box">
+                    <i class="fa-solid fa-wifi text-trans"></i>
+                </span>
+                <h3 class="feathead">Wireless Freedom</h3>
+                <p class="featpitch">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat quod, dicta pariatur tempora sint optio</p>
+            </div>
+        </div>
+    </section>
+    <section class="aboutproduct">
+        <img src="./images/Wireless-Headphone-PNG-HD-Quality.png" alt="" class="product">
+        <div class="about">
+            <p class="h2f2">About Product</p>
+            <h2 class="h2tt">Awesome Digital Products Can Make Your Life Easier</h2>
+            <hr> <hr class="lefthr">
+            <p class="featpitch">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa error provident cupiditate aliquid praesentium culpa, totam itaque veritatis doloribus repudiandae soluta placeat quis maxime ducimus corrupti, adipisci, quod facere. Optio.
+            <br>  
+            <br> 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur iusto aliquam sequi quia ullam ut blanditiis reprehenderit ducimus animi error adipisci sapiente, dolores sint est nobis a libero possimus esse?
+            </p>
+            <span class="list">
+                <i class="fa-solid fa-check grey"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <span class="list">
+                <i class="fa-solid fa-check grey"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <span class="list">
+                <i class="fa-solid fa-check grey"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+            <span class="list">
+                <i class="fa-solid fa-check grey"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+        </div>
+    </section>
+    <footer>
+        <div class="out">
+            <div class="outer">
+            </div>
+            <div class="inner">
+                <i class="fa-solid fa-play grey size"></i>
+                <h2>Best product for you. Check the Demo Video</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eum exercitationem vero repellat, dolores tempora ut architecto numquam voluptatum vel officiis fugit aperiam molestiae dolor deleniti necessitatibus ex voluptates recusandae.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
 </body>
 </html>

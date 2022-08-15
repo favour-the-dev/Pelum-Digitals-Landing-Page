@@ -12,12 +12,13 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
-span {
+.log {
     font-size: 30px;
-    color: grey;
+    color: rgba(0, 0, 0, 0.482);
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .logname {
     display: inline-block;
@@ -71,4 +72,225 @@ h1 {
     margin-top: 10px;
     padding: 12px;
     border: none;
+}
+.features {
+    text-align: center;
+}
+h2 {
+    margin: 0;
+}
+.h2f {
+    border: none;
+    background-color: rgba(128, 128, 128, 0.476);
+    padding: 5px;
+    width: 100%;
+    max-width: 90px;
+    margin: 0px auto 10px;
+    font-size: 13px;
+    color: grey;
+}
+hr {
+    display: inline-block;
+    width: 45px;
+    border: 1px solid grey;
+}
+.lefthr {
+    width: 25px;
+}
+.iconfull {
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}.featcon {
+    margin: 20px;
+}
+.box {
+    display: inline-block;
+    background-color: grey;
+    height: 70px;
+    width: 70px;
+    transform: rotate(45deg);
+    color: white;
+    text-align: center;
+    box-shadow:  2px 2px 6px 4px grey;
+}
+.text-trans {
+    font-size: 28px;
+    margin: 20px auto;
+    transform: rotate(-45deg);
+    color: white;
+}
+h3 {
+    margin: 0;
+}
+.feathead {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.aboutproduct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 80px auto 40px;
+}
+.product {
+    margin-left: 150px;
+    width: 100%;
+    max-width: 350px;
+}
+.about {
+    margin-left: 200px;
+}
+.h2f2 {
+    border: none;
+    background-color: rgba(128, 128, 128, 0.476);
+    padding: 5px;
+    width: 90px;
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.h2tt {
+    width: 60%;
+    font-size: 35px;
+}
+.featpitch {
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+.list {
+    display: block;
+    margin: 10px 0 10px;
+    font-weight: bold;
+}
+.grey {
+    color: grey;
+}
+footer {
+    background-image: url(./images/pexels-garrett-morrow-610945.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.out {
+    padding: 80px;
+    margin: auto;
+}
+.outer {
+    height: 183.75px;
+    width: 100%;
+    max-width: 950px;
+   background-color: grey;
+   margin: auto;
+   position: relative;
+   transform: rotate(-8deg);
+   top: 180px;
+   right: 20px;
+   border-radius: 30px;
+}
+.inner {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.size {
+    width: 100px;
+    margin: 10px;
+}
+.icon {
+    display: none;
+    color: white;
+}
+@media screen and (max-width: 425px) {
+    body {
+        width: 100vw;
+        overflow: none;
+    }
+    .content {
+        position: none;
+        top: 0;
+    }
+    .content {
+        width: 100vw;
+    }
+    .text {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+    }
+    .textt {
+        font-size: 25px;
+    }
+    .texttt {
+        font-size: 12px;
+        word-wrap: break-word;
+        line-height: 1.5;
+    }
+    .buy {
+        padding: 5px;
+    }
+    .iconfull {
+        display: inline-block;
+    }
+    .aboutproduct {
+        display: inline-block;
+        width: 100%;
+        margin: 30px auto 30px
+    }
+    .about {
+        margin: 30px;
+    }
+    .product {
+        width: 200px;
+        margin: auto;
+    }
+    .features {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .bg {
+        width: 100%;
+    }
+    .h2tt {
+        font-size: 25px;
+    }
+    .iconfull {
+        width: 100%;
+        margin: 10px;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+    }
+    .topnav {
+        width: 100%;
+        max-width: 425px;
+        overflow: hidden;
+    }
+    .nav {
+        width: 30%;
+        display: block;
+    }
+    .nav a {
+        display: block;
+    }
+    .logname {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 60px;
+    }
+
 }
