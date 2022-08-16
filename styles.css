@@ -34,10 +34,9 @@ p {
     text-decoration: none;
     color: white;
     padding: 12px 8px;
-    transition: 0.5s;
 }
 .nav a:hover {
-    background-color: beige;
+    color: beige;
     text-decoration: underline;
 }
 .content {
